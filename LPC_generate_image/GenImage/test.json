@@ -1,0 +1,22 @@
+{
+	"family": "rt6xx",
+	"inputImageFile": "D:/Git_repo/rom_validation/Test/Generate_image/input_image/led_ram_0x1c000.bin",
+	"imageLinkAddress": "0x1c000",
+	"imageLinkAdressFromImage": false,
+	"outputImageExecutionTarget": "RAM",
+	"outputImageAuthenticationType": "Signed",
+	"deviceKeySource": "Key Store",
+	"outputImageEncryptionKeyFile": "", 
+	"enableTrustZone": flase,
+	"trustZonePresetFile": "",
+	"useKeyStore": true,
+	"keyStoreFile": "D:/Git_repo/rom_validation/Test/Generate_image/AES_key/key_store_user.bin",
+	"rootCertificate0File": "D:/Git_repo/rom_validation/Test/Generate_image/keys_and_certs/rotk0_cert0_2048_noca.der.crt",
+	"rootCertificate1File": "D:/Git_repo/rom_validation/Test/Generate_image/keys_and_certs/rotk1_cert0_2048_noca.der.crt",
+	"rootCertificate2File": "D:/Git_repo/rom_validation/Test/Generate_image/keys_and_certs/rotk2_cert0_2048_noca.der.crt",
+	"rootCertificate3File": "D:/Git_repo/rom_validation/Test/Generate_image/keys_and_certs/rotk3_cert0_2048_noca.der.crt",
+	"mainCertChainId": 0,
+	"mainCertPrivateKeyFile": "D:/Git_repo/rom_validation/Test/Generate_image/keys_and_certs/rotk0_cert0_2048.pem",
+	"masterBootOutputFile": "image.bin"
+
+}
